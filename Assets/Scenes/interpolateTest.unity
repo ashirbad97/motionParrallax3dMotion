@@ -2725,11 +2725,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000013084846212, guid: 042142d01b081ab4ca555ec74a04c2cb, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4000013084846212, guid: 042142d01b081ab4ca555ec74a04c2cb, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.06
+      value: -5
       objectReference: {fileID: 0}
     - target: {fileID: 4000013084846212, guid: 042142d01b081ab4ca555ec74a04c2cb, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2766,13 +2766,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 20000013469000644, guid: 042142d01b081ab4ca555ec74a04c2cb,
         type: 3}
+      propertyPath: orthographic
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 20000013469000644, guid: 042142d01b081ab4ca555ec74a04c2cb,
+        type: 3}
       propertyPath: field of view
-      value: 95
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 20000013469000644, guid: 042142d01b081ab4ca555ec74a04c2cb,
+        type: 3}
+      propertyPath: m_FOVAxisMode
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 20000013469000644, guid: 042142d01b081ab4ca555ec74a04c2cb,
         type: 3}
       propertyPath: m_FocalLength
-      value: 10.995975
+      value: 10.069196
+      objectReference: {fileID: 0}
+    - target: {fileID: 20000013469000644, guid: 042142d01b081ab4ca555ec74a04c2cb,
+        type: 3}
+      propertyPath: near clip plane
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 20000013469000644, guid: 042142d01b081ab4ca555ec74a04c2cb,
         type: 3}
@@ -2792,7 +2807,7 @@ PrefabInstance:
     - target: {fileID: 20000013469000644, guid: 042142d01b081ab4ca555ec74a04c2cb,
         type: 3}
       propertyPath: m_projectionMatrixMode
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114000010313761880, guid: 042142d01b081ab4ca555ec74a04c2cb,
         type: 3}
